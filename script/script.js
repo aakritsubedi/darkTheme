@@ -2,6 +2,7 @@
 var sheet = window.document.styleSheets[0];
 sheet.insertRule('*{ padding: 0; margin: 0;}',sheet.cssRules.length);
 sheet.insertRule('.night-body a{color: #ffffff;}', sheet.cssRules.length);
+//sheet.insertRule('.opacity-wrapper {height:100vh; width:100vw;background-color:#cccccc;opacity:0.1;z-index:-1;position:absolute;}', sheet.cssRules.length);
 
 console.log(sheet);
 var mainBody = document.querySelector('body');
